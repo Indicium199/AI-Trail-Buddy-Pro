@@ -1,0 +1,79 @@
+2025-11-30 19:57:54,789 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-11-30 19:58:05,661 - httpcore.connection - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-11-30 19:58:05,684 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103b8a120>
+2025-11-30 19:58:05,684 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x103a163c0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-11-30 19:58:05,713 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103b80f50>
+2025-11-30 19:58:05,714 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-11-30 19:58:05,714 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-11-30 19:58:05,714 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-11-30 19:58:05,714 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-11-30 19:58:05,714 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-11-30 19:58:07,296 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 30 Nov 2025 19:58:07 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1465'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-11-30 19:58:07,299 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-11-30 19:58:07,301 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-11-30 19:58:07,301 - httpcore.http11 - DEBUG - response_closed.started
+2025-11-30 19:58:07,301 - httpcore.http11 - DEBUG - response_closed.complete
+2025-11-30 19:58:20,025 - httpcore.connection - DEBUG - connect_tcp.started host='api.open-meteo.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-11-30 19:58:20,080 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x103c0c2f0>
+2025-11-30 19:58:20,080 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x103b15d90> server_hostname='api.open-meteo.com' timeout=5.0
+2025-11-30 19:58:20,169 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x103b82990>
+2025-11-30 19:58:20,170 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-11-30 19:58:20,171 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-11-30 19:58:20,171 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-11-30 19:58:20,171 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-11-30 19:58:20,171 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-11-30 19:58:20,212 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 30 Nov 2025 19:58:20 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Content-Encoding', b'deflate')])
+2025-11-30 19:58:20,214 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-11-30 19:58:20,216 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-11-30 19:58:20,216 - httpcore.http11 - DEBUG - response_closed.started
+2025-11-30 19:58:20,217 - httpcore.http11 - DEBUG - response_closed.complete
+2025-11-30 19:58:20,218 - httpcore.connection - DEBUG - close.started
+2025-11-30 19:58:20,218 - httpcore.connection - DEBUG - close.complete
+2025-11-30 19:58:20,220 - httpcore.connection - DEBUG - close.started
+2025-11-30 19:58:20,221 - httpcore.connection - DEBUG - close.complete
+2025-11-30 19:58:20,221 - httpcore.connection - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-11-30 19:58:20,245 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103c102d0>
+2025-11-30 19:58:20,245 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x103a163c0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-11-30 19:58:20,278 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103b64510>
+2025-11-30 19:58:20,278 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-11-30 19:58:20,279 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-11-30 19:58:20,279 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-11-30 19:58:20,279 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-11-30 19:58:20,279 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-11-30 19:58:21,427 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 30 Nov 2025 19:58:21 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1067'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-11-30 19:58:21,428 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-11-30 19:58:21,429 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-11-30 19:58:21,429 - httpcore.http11 - DEBUG - response_closed.started
+2025-11-30 19:58:21,429 - httpcore.http11 - DEBUG - response_closed.complete
+2025-11-30 19:58:27,260 - httpcore.connection - DEBUG - connect_tcp.started host='overpass-api.de' port=443 local_address=None timeout=5.0 socket_options=None
+2025-11-30 19:58:27,319 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x103c11950>
+2025-11-30 19:58:27,319 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x103b164e0> server_hostname='overpass-api.de' timeout=5.0
+2025-11-30 19:58:27,381 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x103b66780>
+2025-11-30 19:58:27,382 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-11-30 19:58:27,382 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-11-30 19:58:27,382 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-11-30 19:58:27,383 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-11-30 19:58:27,383 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-11-30 19:58:27,773 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 30 Nov 2025 19:58:27 GMT'), (b'Server', b'Apache/2.4.65 (Debian)'), (b'Vary', b'Accept-Encoding'), (b'Content-Encoding', b'gzip'), (b'Content-Length', b'2136'), (b'Keep-Alive', b'timeout=5, max=100'), (b'Connection', b'Keep-Alive'), (b'Content-Type', b'application/json')])
+2025-11-30 19:58:27,775 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-11-30 19:58:27,775 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-11-30 19:58:27,776 - httpcore.http11 - DEBUG - response_closed.started
+2025-11-30 19:58:27,776 - httpcore.http11 - DEBUG - response_closed.complete
+2025-11-30 19:58:27,777 - httpcore.connection - DEBUG - close.started
+2025-11-30 19:58:27,777 - httpcore.connection - DEBUG - close.complete
+2025-11-30 19:58:27,779 - httpcore.connection - DEBUG - close.started
+2025-11-30 19:58:27,780 - httpcore.connection - DEBUG - close.complete
+2025-11-30 19:58:27,780 - httpcore.connection - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-11-30 19:58:27,802 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103b67490>
+2025-11-30 19:58:27,802 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x103a163c0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-11-30 19:58:27,831 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103acf890>
+2025-11-30 19:58:27,832 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-11-30 19:58:27,832 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-11-30 19:58:27,832 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-11-30 19:58:27,833 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-11-30 19:58:27,833 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-11-30 19:58:28,799 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 30 Nov 2025 19:58:28 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=848'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-11-30 19:58:28,800 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-11-30 19:58:28,800 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-11-30 19:58:28,800 - httpcore.http11 - DEBUG - response_closed.started
+2025-11-30 19:58:28,800 - httpcore.http11 - DEBUG - response_closed.complete
